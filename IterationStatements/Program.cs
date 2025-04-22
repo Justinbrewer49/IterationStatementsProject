@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace IterationStatements
 {
@@ -16,7 +17,7 @@ namespace IterationStatements
             //-----START HERE------------------------------------------
             //TODO - Create a variable of type int and name it "num"
             //TODO - Initialize the variable with a value of 0
-
+            var num = 0;
 
             //TODO - Create a do-while loop using the existing brackets as a template.
             // The existing brackets are placeholders for your loop code.
@@ -31,7 +32,6 @@ namespace IterationStatements
             } 
             while (num < 100);
             
-
             //TODO - Create a while loop using the existing brackets as a template.
             //TODO - Continue the loop while "num" is less than 200
             // The existing brackets are placeholders for your loop code.
@@ -40,22 +40,14 @@ namespace IterationStatements
             // b) Then add "num" to the collection "numbers"
             //    Hint: You can copy how this was done in the do-while loop
 
-
             while (num < 200)
             {
                 num++;
                 numbers.Add(num);
             }
             
-
-
-
-
-
-
             // This is to show the user that the numbers will start increasing on the console
             Console.WriteLine("Increase:");
-
 
             //TODO - Create a foreach loop using the existing brackets as a template.
             // The existing brackets are placeholders for your loop code.
@@ -63,7 +55,7 @@ namespace IterationStatements
 
             foreach (var number in numbers)
             {
-                console.writeline(numbers;
+                Console.WriteLine(number);
             }
              
             Console.WriteLine("");
